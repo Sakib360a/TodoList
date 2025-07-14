@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home.dart';
+import 'screens/home_screen.dart';
 
 class Myapp extends StatelessWidget {
   const Myapp({super.key});
@@ -9,7 +9,7 @@ class Myapp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
     title: 'ToDo List App',
-      home: Home(),
+      home: HomeScreen(),
     );
   }
 }

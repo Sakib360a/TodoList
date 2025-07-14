@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
-
+import 'package:todo_list/screens/home_screen.dart';
+import 'screens/all_tasks_screen.dart';
+import 'screens/completed_tasks_screen.dart';
+import 'screens/today_tasks_screen.dart';
 class Navbar extends StatelessWidget {
-  const Navbar({super.key});
+  const Navbar({super.key, required void Function(AppPage page) onPageSelected, required AppPage currentPage});
 
   @override
   Widget build(BuildContext context) {
@@ -45,14 +48,14 @@ class Navbar extends StatelessWidget {
             leading: Icon(Icons.today_outlined),
             title: Text('Today'),
             onTap: () {
-              Navigator.pop(context);
+              Navigator.push(context,MaterialPageRoute(builder: (context)=> TodayTasksScreen()));
             },
           ),
           ListTile(
             leading: Icon(Icons.done),
             title: Text('Completed Tasks'),
             onTap: () {
-              Navigator.pop(context);
+              Navigator.push(context, MaterialPageRoute(builder: (context) => CompletedTasksScreen()));
             },
           ),
           Divider(),
