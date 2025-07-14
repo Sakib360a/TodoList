@@ -7,6 +7,7 @@ class Navbar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Drawer(
       child: ListView(
+        padding: EdgeInsets.zero,
         children: [
           UserAccountsDrawerHeader(
             accountName: Text("Abu Bakkar Siddique"),
@@ -22,8 +23,45 @@ class Navbar extends StatelessWidget {
               ),
             ),
             decoration: BoxDecoration(
-              image: DecorationImage(image: NetworkImage(''))
+              image: DecorationImage(image: NetworkImage('https://img.freepik.com/premium-photo/mountain-range-with-full-moon-background_802346-465.jpg'),
+                  fit: BoxFit.cover)
             ),
+          ),
+          ListTile(
+            leading: Icon(Icons.home),
+            title: Text('Home'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.list),
+            title: Text('All Tasks'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.today_outlined),
+            title: Text('Today'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.done),
+            title: Text('Completed Tasks'),
+            onTap: () {
+              Navigator.pop(context);
+            },
+          ),
+          Divider(),
+          ListTile(
+            leading: Icon(Icons.settings),
+            title: Text('Settings'),
+            onTap: () {
+              Navigator.pop(context);
+            },
           ),
         ],
       ),
