@@ -48,7 +48,7 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 
 ## License
 
-This project currently does not have a license. If you'd like to add one, consider choosing an open-source license that fits your needs.
+This project currently does not have a license.
 
 ## Contact
 
