@@ -1,16 +1,57 @@
-# todo_list
 
-A new Flutter project.
+
+# TodoList
+
+A simple and efficient Todo List application built using Dart. This application helps you organize, manage, and track your daily tasks with ease.
+
+## Features
+
+- Add new tasks to your list.
+- Mark tasks as completed.
+- Remove tasks from the list.
+- User-friendly interface.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+To run this project, you need to have the following installed:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Dart SDK](https://dart.dev/get-dart)
+- Any code editor like [VS Code](https://code.visualstudio.com/) 
+or 
+[Android Studio](https://developer.android.com/studio).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Sakib360a/TodoList.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd TodoList
+   ```
+
+3. Run the application:
+
+   ```bash
+   dart run
+   ```
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
+
+## License
+
+This project currently does not have a license. If you'd like to add one, consider choosing an open-source license that fits your needs.
+
+## Contact
+
+For questions or suggestions, feel free to contact the project owner:
+
+- GitHub: [Sakib360a]
